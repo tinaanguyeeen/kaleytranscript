@@ -1,0 +1,702 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="Pragma" NAME="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" NAME="Cache-Control" CONTENT="no-cache">
+<LINK REL="stylesheet" HREF="detail_pages.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="web_defaultprint.css" TYPE="text/css" media="print">
+<TITLE>Academic Transcript</TITLE>
+<META HTTP-EQUIV="Content-Script-Type" NAME="Default_Script_Language" CONTENT="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<div id="headerImage">
+<IMG SRC="/UCRgifs/Header_logo_upperleft.png" CLASS="headerImg" TITLE=""  NAME="UCR_Header" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=75 WIDTH=1039>
+</div>
+<DIV class="headerwrapperdiv">
+<DIV class="pageheaderdiv1">
+<A HREF="#main_content" onMouseover="window.status='Go to Main Content'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true" onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</A>
+<H1> </H1></DIV><DIV class="headerlinksdiv">
+<SPAN class="pageheaderlinks2">
+<MAP NAME="Module_Navigation_Links_H" title="Module Navigation Links">
+<p>
+<A HREF="#skip_Module_Navigation_Links_H" onMouseover="window.status='Skip Module Navigation Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Module Navigation Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Module Navigation Links</A>
+<TABLE  CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items."
+                          WIDTH="100%" cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<TD CLASS="pldefault">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Tab Items."
+                 cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<td class="taboff" height=22>
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onMouseover="window.status='Personal Information'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Personal Information'; return true" onBlur="window.status=''; return true" >Personal Information</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="tabon"  height=22>
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onMouseover="window.status='Student Services'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student Services'; return true" onBlur="window.status=''; return true" >Student Services</A>
+</TD>
+<TD class="bgtabon"  height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu" onMouseover="window.status='Financial Aid'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Financial Aid'; return true" onBlur="window.status=''; return true" >Financial Aid</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_ARMnu" onMouseover="window.status='Student Account'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student Account'; return true" onBlur="window.status=''; return true" >Student Account</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_ProxyMenu" onMouseover="window.status='Authorization and Privacy'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Authorization and Privacy'; return true" onBlur="window.status=''; return true" >Authorization and Privacy</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+<TR>
+<TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+</MAP>
+</SPAN>
+<a name="skip_Module_Navigation_Links_H"></a>
+</DIV>
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<DIV class="headerlinksdiv2">
+<FORM ACTION="/banprod/twbksrch.P_ShowResults" METHOD="POST">
+Search
+<SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+<INPUT TYPE="text" NAME="KEYWRD_IN" SIZE="20" MAXLENGTH="65" ID="keyword_in_id">
+<INPUT TYPE="submit" VALUE="Go">
+</FORM>
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext" /p>
+<SPAN class="pageheaderlinks">
+<A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_AdminMnu"  class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</A>
+|
+<A HREF="/banprod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">SITE MAP</A>
+|
+<A HREF="/banprod/twbkfrmt.P_DispHelp?pagename_in=bwskotrn.P_ViewTran" accesskey="H" onClick="popup = window.open('/banprod/twbkfrmt.P_DispHelp?pagename_in=bwskotrn.P_ViewTran', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onMouseOver="window.status='';  return true" onMouseOut="window.status=''; return true"onFocus="window.status='';  return true" onBlur="window.status=''; return true"  class="submenulinktext2">HELP</A>
+|
+<A HREF="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</A>
+</span>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV class="pagetitlediv">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<H2>Academic Transcript</H2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext" /p>
+<DIV class="staticheaders">
+862142050 Kaley H. Kim<br>
+May 30, 2020 09:33 pm<br>
+</div>
+</TD>
+</TR>
+<TR>
+<TD class="bg3" width="100%" colSpan=3><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD>
+</TR>
+</TABLE>
+<a name="main_content"></a>
+</DIV>
+<DIV class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><IMG SRC="/wtlgifs/web_info_cascade.png" ALT="Information" CLASS="headerImg" TITLE="Information"  NAME="web_info" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=12 WIDTH=14></TD><TD CLASS="indefault"><SPAN class="infotext"> This is not an official transcript.  Courses which are in progress may also be included on this transcript.</SPAN></TD></TR></TABLE><P></DIV>
+<A NAME="top">
+</A>
+<A HREF="#trans_credit">Transfer Credit</A>
+&nbsp&nbsp
+<A HREF="#insti_credit">Institution Credit</A>
+&nbsp&nbsp
+<A HREF="#trans_totals">Transcript Totals</A>
+&nbsp&nbsp
+<A HREF="#crses_progress">Courses in Progress</A>
+<P class="whitespace1">
+<TABLE  CLASS="datadisplaytable" SUMMARY="This table will display the
+                                   user's Academic History in the following
+                                   sections:  Degree Information, Transfer
+                                   Credit By Institution, Institution
+                                   Credit, Transcript Totals ,
+                                   Courses In Progress." WIDTH="80%"><CAPTION class="captiontext">Transcript Data</CAPTION>
+<TR>
+<TH COLSPAN="12" CLASS="ddtitle" scope="colgroup" >STUDENT INFORMATION</TH>
+</TR>
+<TR>
+<TH COLSPAN="2" CLASS="ddlabel" scope="row" >Birth Date:</TH>
+<TD COLSPAN="10" CLASS="dddefault">18-JUNE>
+</TD>
+</TR>
+<TR>
+<TH COLSPAN="6" CLASS="ddtitle" scope="colgroup" >Curriculum Information</TH>
+</TR>
+<TR>
+<TH COLSPAN="6" CLASS="ddlabel" scope="row" >Program</TH>
+</TR>
+<TR>
+<TD COLSPAN="6" CLASS="dddefault">Bachelor of Arts</TD>
+</TR>
+<TR>
+<TH COLSPAN="3" CLASS="ddlabel" scope="row" >College:</TH>
+<TD COLSPAN="3" CLASS="dddefault">Humanities, Arts, and Soc Sci</TD>
+</TR>
+<TR>
+<TH COLSPAN="3" CLASS="ddlabel" scope="row" >Major and Department:</TH>
+<TD COLSPAN="3" CLASS="dddefault">Sociology, College of Hum & Soc Sciences</TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">***Transcript type:ADVS is NOT Official ***</TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddtitle" scope="colgroup" >TRANSFER CREDIT ACCEPTED BY INSTITUTION&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<A HREF="#top" ALT="TOP" >-Top-</A><A NAME="trans_credit"></A></TH>
+</TR>
+<TR>
+<TH COLSPAN="1" CLASS="ddlabel" scope="row" ><SPAN class="fieldOrangetextbold">05/18-05/18:</SPAN></TH>
+<TD COLSPAN="11" CLASS="dddefault">Educational Testing Service:AP</TD>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Subject</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >Course</TH>
+<TH COLSPAN="3" CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Grade</TH>
+<TH CLASS="ddheader" scope="col" >Credit Hours</TH>
+<TH COLSPAN="4" CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Repeat Status">R</ABBR></TH>
+</TR>
+<TR>
+<TD CLASS="dddefault">BIOL</TD>
+<TD COLSPAN="2" CLASS="dddefault">----</TD>
+<TD COLSPAN="3" CLASS="dddefault">BIOL:TRANSFER CREDIT</TD>
+<TD CLASS="dddefault">TP</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+<TD COLSPAN="4" CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">ENGL</TD>
+<TD COLSPAN="2" CLASS="dddefault">001A</TD>
+<TD COLSPAN="3" CLASS="dddefault">BEGINNING COMPOSITION</TD>
+<TD CLASS="dddefault">TP</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+<TD COLSPAN="4" CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">UCRV</TD>
+<TD COLSPAN="2" CLASS="dddefault">ELEC</TD>
+<TD COLSPAN="3" CLASS="dddefault">UCR ACCEPTED TRANSFER ELECTIVE</TD>
+<TD CLASS="dddefault">TP</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+<TD COLSPAN="4" CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">UCRV</TD>
+<TD COLSPAN="2" CLASS="dddefault">ELEC</TD>
+<TD COLSPAN="3" CLASS="dddefault">UCR ACCEPTED TRANSFER ELECTIVE</TD>
+<TD CLASS="dddefault">TP</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+<TD COLSPAN="4" CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="dddead">&nbsp;</TD>
+<TH CLASS="ddheader" scope="col" >Attempt Hours</TH>
+<TH CLASS="ddheader" scope="col" >Passed Hours</TH>
+<TH CLASS="ddheader" scope="col" >Earned Hours</TH>
+<TH CLASS="ddheader" scope="col" >GPA Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH COLSPAN="3" CLASS="ddheader" scope="col" >GPA</TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Current Term:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       16.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       16.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD COLSPAN="3" CLASS="dddefault"><p class="rightaligntext">                     0.00</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+<TR>
+<TH COLSPAN="1" CLASS="ddlabel" scope="row" ><SPAN class="fieldOrangetextbold">05/19-05/19:</SPAN></TH>
+<TD COLSPAN="11" CLASS="dddefault">Educational Testing Service:AP</TD>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Subject</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >Course</TH>
+<TH COLSPAN="3" CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Grade</TH>
+<TH CLASS="ddheader" scope="col" >Credit Hours</TH>
+<TH COLSPAN="4" CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Repeat Status">R</ABBR></TH>
+</TR>
+<TR>
+<TD CLASS="dddefault">PSYC</TD>
+<TD COLSPAN="2" CLASS="dddefault">002</TD>
+<TD COLSPAN="3" CLASS="dddefault">INTRODUCTORY PSYCHOLOGY</TD>
+<TD CLASS="dddefault">TP</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+<TD COLSPAN="4" CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="dddead">&nbsp;</TD>
+<TH CLASS="ddheader" scope="col" >Attempt Hours</TH>
+<TH CLASS="ddheader" scope="col" >Passed Hours</TH>
+<TH CLASS="ddheader" scope="col" >Earned Hours</TH>
+<TH CLASS="ddheader" scope="col" >GPA Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH COLSPAN="3" CLASS="ddheader" scope="col" >GPA</TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Current Term:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        4.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        4.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD COLSPAN="3" CLASS="dddefault"><p class="rightaligntext">                     0.00</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddtitle" scope="colgroup" >INSTITUTION CREDIT&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<A HREF="#top" ALT="TOP" >-Top-</A><A NAME="insti_credit"></A></TH>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddlabel" scope="row" ><SPAN class="fieldOrangetextbold">Term: Fall 2019</SPAN></TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >College:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Humanities, Arts, and Soc Sci</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Major:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Pre-Business</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Student Type:</TH>
+<TD COLSPAN="7" CLASS="dddefault">First Time Freshman</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Academic Standing:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Good Standing</TD>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Subject</TH>
+<TH CLASS="ddheader" scope="col" >Course</TH>
+<TH CLASS="ddheader" scope="col" >Level</TH>
+<TH COLSPAN="5" CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Grade</TH>
+<TH CLASS="ddheader" scope="col" >Credit Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Repeat Status">R</ABBR></TH>
+</TR>
+<TR>
+<TD CLASS="dddefault">BUS</TD>
+<TD CLASS="dddefault">010</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">INTRODUCTION TO BUSINESS</TD>
+<TD CLASS="dddefault">A-</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        4.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             14.80</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">CHFY</TD>
+<TD CLASS="dddefault">007</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">CHASS 1ST LEARNG COMMNITY WRK</TD>
+<TD CLASS="dddefault">S</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        2.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">HIST</TD>
+<TD CLASS="dddefault">036</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">HIST NO AMER INDIANS,1800-1899</TD>
+<TD CLASS="dddefault">A-</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        4.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             14.80</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">MATH</TD>
+<TD CLASS="dddefault">004</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">INTRO COLL MATH BUS & SOC SC</TD>
+<TD CLASS="dddefault">B</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        5.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             15.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddtitle" scope="colgroup" >Term Totals (Undergraduate)</TH>
+</TR>
+<TR>
+<TD COLSPAN="5" CLASS="dddead">&nbsp;</TD>
+<TH CLASS="ddheader" scope="col" >Attempt Hours</TH>
+<TH CLASS="ddheader" scope="col" >Passed Hours</TH>
+<TH CLASS="ddheader" scope="col" >Earned Hours</TH>
+<TH CLASS="ddheader" scope="col" >GPA Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >GPA</TH>
+</TR>
+<TR>
+<TH COLSPAN="5" CLASS="ddlabel" scope="row" >Current Term:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       13.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             44.60</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.43</p></TD>
+</TR>
+<TR>
+<TH COLSPAN="5" CLASS="ddlabel" scope="row" >Cumulative:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       15.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       13.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             44.60</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.43</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="12" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddlabel" scope="row" ><SPAN class="fieldOrangetextbold">Term: Winter 2020</SPAN></TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >College:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Humanities, Arts, and Soc Sci</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Major:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Pre-Business</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Student Type:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Continuing</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Academic Standing:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Good Standing</TD>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Subject</TH>
+<TH CLASS="ddheader" scope="col" >Course</TH>
+<TH CLASS="ddheader" scope="col" >Level</TH>
+<TH COLSPAN="5" CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Grade</TH>
+<TH CLASS="ddheader" scope="col" >Credit Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Repeat Status">R</ABBR></TH>
+</TR>
+<TR>
+<TD CLASS="dddefault">CHFY</TD>
+<TD CLASS="dddefault">007</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">CHASS 1ST LEARNG COMMNITY WRK</TD>
+<TD CLASS="dddefault">S</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        2.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">ECON</TD>
+<TD CLASS="dddefault">003</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">INTRO TO MICROECONOMICS</TD>
+<TD CLASS="dddefault">A</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        5.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             20.00</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">ENGL</TD>
+<TD CLASS="dddefault">001B</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">INTERMEDIATE COMPOSITION</TD>
+<TD CLASS="dddefault">B+</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        4.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             13.20</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">MATH</TD>
+<TD CLASS="dddefault">022</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="5" CLASS="dddefault">CALCULUS FOR BUSINESS</TD>
+<TD CLASS="dddefault">B-</TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        5.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             13.50</p></TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddead">&nbsp;</TD>
+</TR>
+<TR>
+<TH COLSPAN="12" CLASS="ddtitle" scope="colgroup" >Term Totals (Undergraduate)</TH>
+</TR>
+<TR>
+<TD COLSPAN="5" CLASS="dddead">&nbsp;</TD>
+<TH CLASS="ddheader" scope="col" >Attempt Hours</TH>
+<TH CLASS="ddheader" scope="col" >Passed Hours</TH>
+<TH CLASS="ddheader" scope="col" >Earned Hours</TH>
+<TH CLASS="ddheader" scope="col" >GPA Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >GPA</TH>
+</TR>
+<TR>
+<TH COLSPAN="5" CLASS="ddlabel" scope="row" >Current Term:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       16.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       16.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       16.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       14.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             46.70</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.33</p></TD>
+</TR>
+<TR>
+<TH COLSPAN="5" CLASS="ddlabel" scope="row" >Cumulative:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       27.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             91.30</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.38</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="11" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+<TR>
+<TH COLSPAN="11" CLASS="ddtitle" scope="colgroup" >TRANSCRIPT TOTALS (UNDERGRADUATE)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<A HREF="#top" ALT="TOP" >-Top-</A><A NAME="trans_totals"></A></TH>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="dddead">&nbsp;</TD>
+<TH CLASS="ddheader" scope="col" >Attempt Hours</TH>
+<TH CLASS="ddheader" scope="col" >Passed Hours</TH>
+<TH CLASS="ddheader" scope="col" >Earned Hours</TH>
+<TH CLASS="ddheader" scope="col" >GPA Hours</TH>
+<TH CLASS="ddheader" scope="col" >Quality Points</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >GPA</TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Total Institution:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       27.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             91.30</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.38</p></TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Total Transfer:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       20.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       20.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">        0.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">              0.00</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     0.00</p></TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Overall:</TH>
+<TD CLASS="dddefault"><p class="rightaligntext">       31.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       51.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">       51.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             27.000</p></TD>
+<TD CLASS="dddefault"><p class="rightaligntext">             91.30</p></TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">                     3.38</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="11" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+<TR>
+<TH COLSPAN="11" CLASS="ddtitle" scope="colgroup" >COURSES IN PROGRESS   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<A HREF="#top" ALT="TOP" >-Top-</A><A NAME="crses_progress"></A></TH>
+</TR>
+<TR>
+<TH COLSPAN="11" CLASS="ddlabel" scope="row" ><SPAN class="fieldOrangetextbold">Term: Spring 2020</SPAN></TH>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >College:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Humanities, Arts, and Soc Sci</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Major:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Pre-Business</TD>
+</TR>
+<TR>
+<TH COLSPAN="4" CLASS="ddlabel" scope="row" >Student Type:</TH>
+<TD COLSPAN="7" CLASS="dddefault">Continuing</TD>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Subject</TH>
+<TH CLASS="ddheader" scope="col" >Course</TH>
+<TH CLASS="ddheader" scope="col" >Level</TH>
+<TH COLSPAN="6" CLASS="ddheader" scope="col" >Title</TH>
+<TH COLSPAN="2" CLASS="ddheader" scope="col" >Credit Hours</TH>
+</TR>
+<TR>
+<TD CLASS="dddefault">CHFY</TD>
+<TD CLASS="dddefault">007</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="6" CLASS="dddefault">CHASS F1RST LEARNING COMMUNITY WORKSHOP</TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">    2.000</p></TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">CS</TD>
+<TD CLASS="dddefault">008</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="6" CLASS="dddefault">INTRODUCTION TO COMPUTING</TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">ECON</TD>
+<TD CLASS="dddefault">002</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="6" CLASS="dddefault">INTRODUCTION TO MACROECONOMICS</TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">    5.000</p></TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">HIST</TD>
+<TD CLASS="dddefault">010</TD>
+<TD CLASS="dddefault">U</TD>
+<TD COLSPAN="6" CLASS="dddefault">WORLD HISTORY: PREHISTORY TO 1500</TD>
+<TD COLSPAN="2" CLASS="dddefault"><p class="rightaligntext">    4.000</p></TD>
+</TR>
+<TR>
+<TD COLSPAN="11" CLASS="ddseparator">&nbsp;</TD>
+</TR>
+<TR>
+<TD COLSPAN="4" CLASS="ddseparator"><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><SPAN class="infotext"> Unofficial Transcript</SPAN></TD></TR></TABLE><P></DIV></TD>
+</TR>
+</TABLE>
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<TABLE  CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><TR><TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+<A HREF="#top" onMouseover="window.status='Skip to top of page'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true" onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</A>
+</DIV>
+<DIV class="footerbeforediv">
+
+</DIV>
+<DIV class="footerlinksdiv">
+<SPAN class="pagefooterlinks">
+<MAP NAME="Academic_Transcript_Links_F" title="Academic Transcript Links">
+<p>
+<A HREF="#skip_Academic_Transcript_Links_F" onMouseover="window.status='Skip Academic Transcript Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Academic Transcript Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Academic Transcript Links</A>
+<P>[ <A HREF="/banprod/twbkwbis.P_GenMenu?name=bmenu.P_FACostMnu" onMouseover="window.status='Financial Aid Eligibility Menu'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Financial Aid Eligibility Menu'; return true" onBlur="window.status=''; return true" >Financial Aid Eligibility Menu</A>
+ | <A HREF="bwskwtrr.p_disp_transcript_address">Request Printed Transcript</A>
+ | <A HREF="bwskwtrr.p_disp_order_requests">Transcript Request Status</A>
+ ]
+</MAP>
+</SPAN>
+<a name="skip_Academic_Transcript_Links_F"></a>
+</DIV>
+<DIV class="footerafterdiv">
+
+</DIV>
+<DIV class="globalafterdiv">
+
+</DIV>
+<DIV class="globalfooterdiv">
+
+</DIV>
+<DIV class="pagefooterdiv">
+<SPAN class="releasetext">Release: 8.7.1</SPAN>
+</DIV>
+<DIV class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+<div class="banner_copyright"> <br><h5>© 2020 Ellucian Company L.P. and its affiliates.<br></h5></div>
+</BODY>
+</HTML>
